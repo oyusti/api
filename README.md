@@ -77,7 +77,7 @@ In the terminal
         php artisan key: generate
 
 
--   In the terminal execute 
+-   We will now create the tables and records in the database. In the terminal execute 
 
 
         php artisan migrate --seed
