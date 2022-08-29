@@ -88,5 +88,7 @@ In the terminal
         npm run dev
 
 
+-   Finally remember to install some software to test the API like postman
+
 That is all... Happy Code!
 
