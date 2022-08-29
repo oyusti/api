@@ -43,7 +43,9 @@ It is necessary that prior to installation you must have installed PHP, Laravel,
 In the terminal
 
    '''
+   
    git clone git@github.com:oyusti/api.git
+   
    '''
    
 In the terminal Enter the directory 
