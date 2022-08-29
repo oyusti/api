@@ -44,14 +44,14 @@ In the terminal
 
    '''
    
-   git clone git@github.com:oyusti/api.git
+        git clone git@github.com:oyusti/api.git
    
    '''
    
 In the terminal Enter the directory 
 
 '''
-cd api
+        cd api
 '''
 
 - run "composer install" to install dependencies and then "npm install"
