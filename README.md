@@ -81,6 +81,11 @@ In the terminal
 
 
         php artisan migrate --seed
+        
+        
+-   Remember to always execute the command "npm run dev" in the terminal when starting the server, otherwise you will get an error
+
+        npm run dev
 
 
 That is all... Happy Code!
