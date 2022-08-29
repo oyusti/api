@@ -80,7 +80,7 @@ In the terminal
 -   In the terminal execute 
 
 
-    php artisan migrate --seed
+        php artisan migrate --seed
 
 
 That is all... Happy Code!
