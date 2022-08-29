@@ -42,16 +42,22 @@ It is necessary that prior to installation you must have installed PHP, Laravel,
 - First, Go to the directory where you want to install and clone the project
 In the terminal
 
-   '''git clone git@github.com:oyusti/api.git'''
+   '''
+   git clone git@github.com:oyusti/api.git
+   '''
    
 In the terminal Enter the directory 
 
-'''cd api'''
+'''
+cd api
+'''
 
 - run "composer install" to install dependencies and then "npm install"
 
-'''composer install
-   run "npm install'''
+'''
+composer install
+run "npm install
+'''
    
 - Copy the "env_example" file and create the "env" file
 
@@ -63,11 +69,15 @@ In the terminal Enter the directory
 
 - In "env" you must also add "APP_KEY" since it will be empty, for this we write in the terminal: 
 
-'''php artisan key: generate'''
+'''
+php artisan key: generate
+'''
 
 -In the terminal execute 
 
-'''php artisan migrate --seed'''
+'''
+php artisan migrate --seed
+'''
 
 That is all
 
