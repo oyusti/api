@@ -39,7 +39,7 @@ It is an application with educational purposes due to its level of simplicity. I
 
 It is necessary that prior to installation you must have installed PHP, Laravel, Mysql or the relational database of your choice, Composer, NodeJS with NPM
 
-- First, Go to the directory where you want to install and clone the project
+-   First, Go to the directory where you want to install and clone the project
 In the terminal
 
    
@@ -48,7 +48,7 @@ In the terminal
    
    
    
-In the terminal Enter the directory 
+-   In the terminal Enter the directory 
 
 
 
@@ -56,28 +56,28 @@ In the terminal Enter the directory
         
 
 
-- run "composer install" to install dependencies and then "npm install"
+-   run "composer install" to install dependencies and then "npm install"
 
 
         composer install
         run "npm install
 
    
-- Copy the "env_example" file and create the "env" file
+-   Copy the "env_example" file and create the "env" file
 
-- In your code editor open "env" and put in "DB_DATABASE" the name of your preference for the database.
+-   In your code editor open "env" and put in "DB_DATABASE" the name of your preference for the database.
 
-- Then create that same database in your database manager. If for example you created DB_DATABASE = admin in the "env" file, you would also create a database with the same name.
+-   Then create that same database in your database manager. If for example you created DB_DATABASE = admin in the "env" file, you would also create a database with the same name.
 
-- In the "env" file you must also modify the parameter "DB_USERNAME" which will be the username to access the database and "DB_PASSWORD" which will be the password.
+-   In the "env" file you must also modify the parameter "DB_USERNAME" which will be the username to access the database and "DB_PASSWORD" which will be the password.
 
-- In "env" you must also add "APP_KEY" since it will be empty, for this we write in the terminal: 
+-   In "env" you must also add "APP_KEY" since it will be empty, for this we write in the terminal: 
 
 
         php artisan key: generate
 
 
--In the terminal execute 
+-   In the terminal execute 
 
 
     php artisan migrate --seed
