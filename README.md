@@ -16,9 +16,24 @@ It is an application with educational purposes due to its level of simplicity. I
 
 - Connection with database.
 - Use of Eloquent ORM for data handling.
+- One-to-many relationship between tables
 - Routes created for the web server and api.
 - Creation of private API with authentication system.
 - Use of classes for the frontend created with tailwinds css.
+
+
+## Used technology
+
+- Ubuntu 20.04
+- PHP 8.0.2
+- Laravel/framework 9.19
+- Tailwindcss
+- Mysql 8.0.30
+- NodeJS 16.17.0
+- NPM 8.15.0
+- Postman 9.29
+
+## How to Install
 
 
 
